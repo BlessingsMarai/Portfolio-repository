@@ -1,12 +1,9 @@
-const imageContainer = document.getElementById('image-container');
-const images = imageContainer.querySelectorAll('img');
+const heading = document.querySelector('h1');
 
-images.forEach(image => {
-    image.addEventListener('mouseover', () => {
-        image.style.opacity = '0.7';
-    });
+heading.addEventListener('mouseover', () => {
+    heading.style.color = 'blue'; // Change the color to blue on hover
+});
 
-    image.addEventListener('mouseout', () => {
-        image.style.opacity = '1';
-    });
+heading.addEventListener('mouseout', () => {
+    heading.style.color = 'black'; // Change back to black when the mouse leaves
 });
