@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e4e3e3;
+    
 }
 header {
     margin: 5px 4% 5px 4%;
@@ -32,9 +33,12 @@ nav a:hover{
 }
 
 main {
-    max-width: 800px;
-    margin: 20px auto;
+    color:white;
+    margin: auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(47, 45, 218, 0.1);
+}
+#image-container img{
+    width: 500px;
 }
