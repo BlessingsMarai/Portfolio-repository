@@ -1,9 +1,10 @@
-const heading = document.querySelector('h1');
-
-heading.addEventListener('mouseover', () => {
-    heading.style.color = 'blue'; // Change the color to blue on hover
-});
-
-heading.addEventListener('mouseout', () => {
-    heading.style.color = 'black'; // Change back to black when the mouse leaves
+// Add hover event to all links
+const links = document.querySelectorAll('nav a');
+links.forEach(link => {
+  link.addEventListener('mouseover', () => {
+    link.style.color = 'blue';
+  });
+  link.addEventListener('mouseout', () => {
+    link.style.color = 'black';
+  });
 });
